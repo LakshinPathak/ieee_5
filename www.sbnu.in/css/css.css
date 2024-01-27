@@ -175,7 +175,7 @@ body::-webkit-scrollbar-thumb {
 
 .head-norm h1 {
   font-family: "Montserrat", sans-serif;
-  background: linear-gradient(90deg, #3300ff, #e52e71);
+  background: linear-gradient(90deg, #419dec, #d887eb);
   text-shadow: none;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -494,6 +494,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 .team-div:hover {
+  z-index: 100;
+  transform: scale(1.05);
+  box-shadow: 3px 3px 40px black, -3px -3px 10px black;
+}
+
+
+.column1:hover {
   z-index: 100;
   transform: scale(1.05);
   box-shadow: 3px 3px 40px black, -3px -3px 10px black;
